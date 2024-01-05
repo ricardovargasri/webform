@@ -1,12 +1,30 @@
+
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('font/Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans&display=swap');
+
 :root{
   --margin-left: 50px;
+  --viking: 'Norse Bold';
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
 padding: 0;
 margin: 0;
 background-color: rgb(255, 255, 255);
 display: flex;
 flex-direction: row;
+font-family: 'Playfair Display', serif;
+
 }
   
 .seccion-1 {
@@ -35,12 +53,15 @@ background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contene
   width: 69rem;
   height: 20rem;
   margin-left: 0;
+  /* font-size: 1.3rem; */
 }
 
 .texto-1{
   position: relative;
   top: 100px;
   left: var(--margin-left);
+  
+  
 }
 .texto{
   margin-left: var(--margin-left);
