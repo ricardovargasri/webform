@@ -1,8 +1,26 @@
 body{
-    background-image: url(/images/elliot-gouy-F8bdSXLyO1M-unsplash.jpg);
-    background-size: 45%;
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(20, 20, 20, 0.445);
-
+padding: 0;
+margin: 0;
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
 }
+  
+.seccion-1 {
+    
+width: 780px;
+height: 900px;
+background-image: url('./images/elliot-gouy-F8bdSXLyO1M-unsplash.jpg'); /* Ajusta la ruta según la estructura de tu proyecto */
+background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+}
+
+#formulario{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+#second-column{
+    margin-left: 250px;
+}
+
+  
